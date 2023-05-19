@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <title>Document</title>
+</head>
+
+<body>
+      <section class="sub-header">
+            <nav>
+                  <a href="#"><img src="images/logo.png"></a>
+                  <div class="nav-links" id="navlinks">
+                        <i class="fa fa-times" onclick="hidemenu()"></i>
+                        <ul>
+                              <li><a href="index.html">HOME</a></li>
+                              <li><a href="about.html">ABOUT</a></li>
+                              <li><a href="course.html">COURSES</a></li>
+                              <li><a href="blog.html">BLOG</a></li>
+                              <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                  </div>
+                  <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+            
+      </section>
+      <!-- course page  -->
+      <section class="courses">
+            <h1>Our Course</h1>
+            <p>We provide lots of courses below are some courses with some information</p>
+
+            <div class="row">
+                  <div class="course-col">
+                        <h3>Certification</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, dolores tempora.
+                              Explicabo deleniti distinctio molestiae blanditiis tenetur animi nisi, officiis illo unde
+                              natus facere officia autem a pariatur, odio odit laudantium reprehenderit provident.</p>
+                  </div>
+                  <div class="course-col">
+                        <h3>Degree</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, dolores tempora.
+                              Explicabo deleniti distinctio molestiae blanditiis tenetur animi nisi, officiis illo unde
+                              natus facere officia autem a pariatur, odio odit laudantium reprehenderit provident.</p>
+                  </div>
+                  <div class="course-col">
+                        <h3>Post-Graduation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, dolores tempora.
+                              Explicabo deleniti distinctio molestiae blanditiis tenetur animi nisi, officiis illo unde
+                              natus facere officia autem a pariatur, odio odit laudantium reprehenderit provident.</p>
+                  </div>
+            </div>
+
+      </section>
+
+      <!-- facilities  -->
+      <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sapiente!</p>
+            <div class="row">
+                  <div class="facilities-col">
+                        <img src="images/basketball.png" alt="">
+                        <h3>Largest basketball Ground</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium consequatur velit id ut
+                              voluptas similique temporibus est, reprehenderit dolores quam.</p>
+                  </div>
+                  <div class="facilities-col">
+                        <img src="images/library.png" alt="">
+                        <h3>Largest Library </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium consequatur velit id ut
+                              voluptas similique temporibus est, reprehenderit dolores quam.</p>
+                  </div>
+                  <div class="facilities-col">
+                        <img src="images/cafeteria.png" alt="">
+                        <h3>Best and Healthy Foods</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium consequatur velit id ut
+                              voluptas similique temporibus est, reprehenderit dolores quam.</p>
+                  </div>
+            </div>
+
+      </section>
+
+      <!-- footer  -->
+      <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nesciunt esse ducimus corporis ad a
+                  eaque soluta <br> illum nemo eveniet. Porro dolor eos, dicta inventore soluta eius. Ab ad temporibus
+                  sequi sed inventore.</p>
+            <div class="icons">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-linkedin"></i>
+            </div>
+
+            <p>Made <i class="fa fa-heart-o"></i> by pankaj tripathi</p>
+      </section>
+
+      <script>
+            var navlinks = document.getElementById("navlinks")
+
+            function showMenu() {
+                  navlinks.style.right = "0";
+            }
+            function hideMenu() {
+                  navlinks.style.right = "-200px";
+            }
+
+      </script>
+</body>
+
+</html>
